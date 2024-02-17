@@ -1,0 +1,9 @@
+:root{
+    --gradient-color: linear-gradient(90deg, #2400ee 0%, #050238c5 100%);
+
+    --anta: 'anta';
+
+    --title-color: #010125;
+
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225,0.3);
+}
