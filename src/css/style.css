@@ -69,6 +69,8 @@
 }
 /*end banner area*/
 
+/* start service area */
+
 .title-text{
     font: normal bold 50px/100px var(--anta);
 }
@@ -129,4 +131,125 @@
     content: ' ';
     z-index: -1;
     border-radius: 10px;
+}
+.header_area .main-menu .container .navbar-brand img{
+    width: 400px;
+}
+
+@media (max-width: 790px) {
+   
+   .header_area .main-menu .container .navbar-brand img{
+    width: 250px;
+    }
+}
+
+.services .service-intro .service-info h3{
+    padding: 5% 0 0 0;
+    margin-top: 20rem;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+.services .service-intro .service-info h1{
+    font-size: 4rem;
+    margin-left: 10%;
+}
+
+.services .service-intro .service-info h4{
+    font-size: 2.5rem;
+    padding: 0 0 3% 0;
+    margin-left: 10%;
+}
+
+.service-text{
+    font: normal bold 25px/50px var(--anta);
+    
+}
+
+.sobre-text{
+    font: normal bold 100px/150px var (--anta);
+}
+
+.services .service-intro .service-button .services-button {
+    margin-left: 20%;
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6 ease;
+    box-shadow: var(--shadow-color);
+}
+
+.services .service-intro .service-button .services-button::after{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background-color: var(--gradient-color);
+    content: ' ';
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.services .service-intro .service-button .services-button:hover{
+    background: blue;
+    background-clip: padding-box;
+}
+
+.services .service-intro .service-image > img{
+    margin-top: 30%;
+    width: 90rem
+}
+
+/*end Service area*/
+
+/* Start Sobre Area */
+
+.start-sobre .sobre-intro .sobre-info h3{
+    padding: 5% 0 0 0;
+    margin-top: 20rem;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+.start-sobre .sobre-intro .sobre-info h1{
+    font-size: 4rem;
+    margin-left: 10%;
+}
+
+.start-sobre .sobre-intro .sobre-info h4{
+    font-size: 2.5rem;
+    padding: 0 0 3% 0;
+    margin-left: 10%;
+}
+
+.start-sobre .sobre-intro .sobre-img > img{
+    margin-top: 30%;
+    width: 90rem
+}
+
+.start-sobre .sobre-intro .sobre-buttons{
+    margin-left: 35%;
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6 ease;
+    box-shadow: var(--shadow-color);
+}
+
+.start-sobre .sobre-intro .sobre-buttons::after{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background-color: var(--gradient-color);
+    content: ' ';
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.start-sobre .sobre-intro .sobre-buttons:hover{
+    background: blue;
+    background-clip: padding-box;
 }

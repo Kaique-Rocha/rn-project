@@ -23,8 +23,8 @@
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                  <a class="navbar-brand" href="#">
-                    <img src="./src/img/logo-header.png" alt="Logo Header" style="width: 400px">
+                  <a class="navbar-brand" href="#home">
+                    <img src="./src/img/logo-header.png" alt="Logo Header">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,13 +33,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Serviços</a>
+                            <a class="nav-link" href="#servicos">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-disabled="true">Contato</a>
@@ -55,7 +55,7 @@
 
     
 <!----------------Start Main area-------------->
-     <main class="site-main">
+     <main class="site-main" id="home">
             <!---------- Start BANNER Area------------------->
         <section class="site-banner">
             <div class="container">
@@ -79,6 +79,66 @@
         </section>
         <!----------- End BANNER Area ---------------->
     </main>
+    <!----------------End Main area-------------->
+
+    <!----------------Start Service area-------------->
+    <div class="services" id="servicos">
+        <section class="service-intro">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 service-image">
+                        <img class="img-fluid" src="./src/img/aguarde_em_breve.png" alt="Servicos">
+                    </div>
+
+                    <div class="col-lg-6 service-info">
+                        <h3 class="sobre-text text-uppercase">saiba</h3>
+                        <h1 class="sobre-text text-uppercase">mais sobre</h1>
+                        <h4 class="sobre-text text-uppercase">nossos serviços</h4>
+
+                        <div class="service-button">
+                            <button type="button" class="btn button services-button">Trabalhamos com</button>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+        <!----------------END Service area-------------->
+
+
+   <!----------------start Sobre area-------------->
+    <div class="start-sobre" id="sobre">
+        <section class="sobre-intro">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 sobre-info">
+                        <h3 class="service-text text-uppercase">Revestindo Qualidade</h3>
+                        <h1 class="service-text text-uppercase">Impulsionando Performace:</h1>
+                        <h4 class="service-text text-uppercase">Sua Jornada para Cilindros de Excelência</h4>
+
+                        <div class="sobre-button">
+                            <button type="button" class="btn button sobre-buttons">Clique Aqui</button>
+                            </div>
+                    </div>
+
+                    <div class="col-lg-6 sobre-img">
+                        <img class="img-fluid" src="./src/img/aguarde_em_breve.png" alt="Servicos">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>   
+    <!----------------END Sobre area-------------->
+
+
+
+    
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
