@@ -83,6 +83,11 @@
     border-radius: 10px;
 }
 
+.button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 .button.primary-button{
     background: var(--gradient-color);
     background-clip: padding-box;
@@ -134,13 +139,6 @@
 }
 .header_area .main-menu .container .navbar-brand img{
     width: 400px;
-}
-
-@media (max-width: 790px) {
-   
-   .header_area .main-menu .container .navbar-brand img{
-    width: 250px;
-    }
 }
 
 .services .service-intro .service-info h3{
@@ -253,3 +251,32 @@
     background: blue;
     background-clip: padding-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 790px) {
+   
+    .header_area .main-menu .container .navbar-brand img{
+     width: 250px;
+     }
+
+     .start-sobre .sobre-intro .container .row
+     .sobre-info h1{
+        font-size: 3rem;
+     }
+
+     .start-sobre .sobre-intro .sobre-info h4{
+        font-size: 1.9rem;
+    }
+ }
